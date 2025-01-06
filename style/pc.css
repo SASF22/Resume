@@ -14,7 +14,7 @@ body{
 .container {
   display: grid;
   grid-template-columns:  .1fr  .1fr 1fr .1fr  2.5fr;
-  grid-template-rows:   .25fr 2fr 1fr 1fr;
+  grid-template-rows:   1fr 4fr 1fr 1fr;
   width: 100vw;
   height: 200vh;
   
@@ -33,6 +33,7 @@ body{
   width: 100%;
   align-items: flex-start;  
   align-items: flex-end;
+  min-height: 400px;
 }
 
 #header h1 {
@@ -49,13 +50,12 @@ body{
  justify-content: center;
  display: flex;
  align-items: flex-end; 
+ min-height: 100%;
 }
 
 #topRunner img{  
-  height: 280px;
-  width: 280px;
-  border-radius: 7em;
-  align-items: center;  
+  height: 80%;  
+  border-radius: 7em;    
   color: var(--color3);
 }
 
@@ -122,8 +122,22 @@ h5{
   margin-bottom: 0;
   margin-top: 0;
 }
-
 #theBody h3{
   color: var(--color2);
 }
+#theBody ul{
+  padding-inline: 1.4rem;
+  
+  
+}
+#theBody li{  
+  list-style-position: justify;
+  text-align: justify;
+ 
+  
+  margin-top: 0px;
+}
 
+#synopsis p{
+  margin-top: 0rem;
+}
