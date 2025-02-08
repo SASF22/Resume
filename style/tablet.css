@@ -136,9 +136,7 @@
   #theBody ul{
     padding-inline: 1.4rem;    
   }
-  #theBody li{  
-    /* list-style-position: justify;
-    text-align: justify;     */
+  #theBody li{    
     margin-top: 0px;
   }
   
