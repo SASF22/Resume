@@ -58,7 +58,7 @@
   
   #topRunner img{  
     height: 80%;  
-    border-radius: 2em;    
+    border-radius: 7em;    
     color: var(--color3);
     
   }
@@ -123,6 +123,7 @@
     font-size: 1.2rem;    
     justify-content: flex-start; 
     gap: .5rem;
+    /* hello */
     
   }
   #theBody h4{
