@@ -1,0 +1,68 @@
+.container{
+    display: flex;
+    flex-direction: column;    
+    width: 50vw;
+    align-content: center;
+   
+} 
+h1{
+    font-size: 4rem;
+}
+h3{
+    font-size: 2rem;
+}
+h4{
+    font-weight:100;
+    font-size: 1.25rem;
+}
+.outerContainer{
+    display: flex;
+    justify-content: center;
+}
+.titleName{
+display: flex;
+justify-content: center;
+margin-top: 5%;
+width: 100%;
+}
+.headingLine{
+    border-bottom: 3px solid black;
+}
+.subheading{
+    margin-top: 5%;
+}
+p{
+    width: 100%;
+    font-size: 1.25rem;
+}
+.personalInfo{
+    display: flex;
+    justify-content: center;
+    font-size: 1.25rem;    
+    flex-wrap: wrap;
+}
+.personalInfo div{
+    flex: 300px;
+    text-align: center;
+    
+}
+
+
+
+
+.listContainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.listContainer div{
+    flex: 400px;
+    /* border: 2px solid black; */
+    font-size: 1.25rem;
+}
+.noMgBtm{
+    margin-bottom: 0px;
+}
+.noMgTp{
+    margin-top: 0px;
+}

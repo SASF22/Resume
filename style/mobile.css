@@ -49,8 +49,8 @@
   }
   
   #topRunner {
-    grid-column-start: 2;      
-    grid-row-start: 2;       
+   grid-column-start: 2;      
+   grid-row-start: 2;       
    display: flex;      
    margin-top: 5rem;
    z-index: 0;
@@ -94,6 +94,7 @@
     font-style: oblique ; 
     font-weight: 900;
     margin-top: 0px;
+    margin-right: 1rem;
   }
   
   #leftAccent{

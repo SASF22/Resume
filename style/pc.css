@@ -81,10 +81,11 @@ body{
 }
 #bottomRunner li{  
   list-style-position: justify;
-  text-align: justify;
+  /* text-align: justify; */
   font-style: oblique ; 
   font-weight: 900;
   margin-top: 0px;
+  margin-right: 1rem;
 }
 
 #leftAccent{
